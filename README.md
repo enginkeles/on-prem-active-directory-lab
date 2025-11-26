@@ -29,28 +29,28 @@ Azure Cloud
 (Screenshots in the 1.x range)
 
 I carried out the following Active Directory administration tasks:
-- joined the Windows 10 client to the domain (1.1)
-- created users (1.2)
-- configured Group Policy settings (1.3)
-- configured password policies (1.4)
-- created a shared drive and mapped it to a user (1.5)
-- confirmed Group Policy settings through gpresult /h report (1.6)
+- joined the Windows 10 client to the domain ([1.1](./screenshots/1-what-i-did/1.1.png))
+- created users ([1.2](./screenshots/1-what-i-did/1.2.png))
+- configured Group Policy settings ([1.3](./screenshots/1-what-i-did/1.3.png))
+- configured password policies ([1.4](./screenshots/1-what-i-did/1.4.png))
+- created a shared drive and mapped it to a user ([1.5](./screenshots/1-what-i-did/1.5.png))
+- confirmed Group Policy settings through gpresult /h report ([1.6](./screenshots/1-what-i-did/1.6.png))
 
 ## Issues Encountered
 (Screenshots in the 2.x range)
 
 ### Simulated Issues
-- failed logon attempts and account lockouts (2.1)
-- password resets (2.2)
-- account expiration testing (2.3)
-- account disabled (2.4)
-- logon hours restrictions (2.5)
-- testing drive mapping (2.6)
+- failed logon attempts and account lockouts ([2.1](./screenshots/2-issues/2.1.png))
+- password resets ([2.2](./screenshots/2-issues/2.2.png))
+- account expiration testing ([2.3](./screenshots/2-issues/2.3.png))
+- account disabled ([2.4](./screenshots/2-issues/2.4.png))
+- logon hours restrictions ([2.5](./screenshots/2-issues/2.5.png))
+- testing drive mapping ([2.6](./screenshots/2-issues/2.6.png))
 
 ### Real Issues
-- forgetting to point the client VM's DNS settings at the Domain Controller, causing domain join attempts to fail (2.7)
-- choosing VM sizes that fit within Azure's free subscription limits (2.8)
-- public IP addresses not being assigned automatically, so I had to configure them manually during VM creation (2.9)
+- forgetting to point the client VM's DNS settings at the Domain Controller, causing domain join attempts to fail ([2.7](./screenshots/2-issues/2.7.png))
+- choosing VM sizes that fit within Azure's free subscription limits ([2.8](./screenshots/2-issues/2.8.png))
+- public IP addresses not being assigned automatically, so I had to configure them manually during VM creation ([2.9](./screenshots/2-issues/2.9.png))
 
 ## Tools Used
 - Azure Portal
@@ -60,8 +60,6 @@ I carried out the following Active Directory administration tasks:
 - Group Policy Management Console (GPMC)
 - File and Storage Services
 - PowerShell
-
-## Screenshots and Notes
 
 ## Conclusion
 This lab helped me build a stronger understanding of AD DS, GPOs, and how to troubleshoot common account-related issues in a controlled Azure environment.
