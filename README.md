@@ -43,7 +43,7 @@ I carried out the following Active Directory administration tasks:
 - failed logon attempts and account lockouts (2.1)
 - password resets (2.2)
 - account expiration testing (2.3)
-- account disabling (2.4)
+- account disabled (2.4)
 - logon hours restrictions (2.5)
 - testing drive mapping (2.6)
 
